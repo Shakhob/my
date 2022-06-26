@@ -1,0 +1,171 @@
+
+@media (max-width: 1200px){
+    .container{
+        width: auto;
+        max-width: 1140px;;
+    }
+   
+}
+
+@media (max-width: 992px){
+    .container{
+        width: auto;
+        max-width: 960px;;
+    }
+   
+}
+
+
+
+@media (max-width: 768px){
+    .container{
+        width: auto;
+        max-width: 720px;;
+    }
+   
+}
+
+
+@media (max-width: 480px){
+    .container{
+        width: auto;
+        max-width: 375px;
+    }
+    body .wrapper header{
+        display: none;
+        padding: 0;
+    }
+    .header_mobile {
+        display: block;
+        margin-bottom: 44px;
+    }
+    .header_mobile ul .nav-item a {
+        color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: #FFFFFF;
+    }
+    body .wrapper section .reserv .container{
+        padding: 0;
+    }
+    body .wrapper section .reserv .reserv_bg{
+        background-image: url(../images/reserv_bg_mobile.png);
+        background-size: 100% 743px;
+        padding:16px 20px 535px 20px;
+        border-radius: 0px 0px 8px 8px;
+        transition: 0.3s ease all;
+    }
+    body .wrapper section .reserv .reserv_bg.reserv_height{
+        padding:16px 20px 700px 20px;
+        transition: 0.3s ease all;
+    }
+    body .wrapper section .reserv .reserv_bg form select{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    body .wrapper section .reserv .reserv_bg form #date{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    body .wrapper section .reserv .reserv_bg form .search{
+        width: 100%;
+    }
+    body .wrapper section .reserv .reserv_bg h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .body .wrapper section .intresting_places h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .intresting_places_items{
+        display: none;
+    }
+    .intresting_places_items_mobile{
+        display: block;
+    }
+    body .wrapper section .intresting_places .intresting_places_card a img{
+        width: 150px;
+    }
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    body .wrapper section .intresting_places{
+        margin-bottom: 40px;
+    }
+    body .wrapper section .popular h1{
+        font-size: 22px;
+    }
+    .info_car{
+        display: none;
+    }
+    .info_car_mobile{
+        display: block;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+        display: none;
+    }
+    body .wrapper section .popular .partners .partners_item_link{
+        padding: 14px;
+        width: 153px;
+    }
+    .partners_item_link  .partners_item_img img{
+        width: 47px;
+    }
+    body .wrapper section .popular .partners .partners_item_link h3{
+        font-size: 9.46754px;
+        line-height: 11px;
+    }
+    body .wrapper section .popular .partners .partners_item_link h4{
+        font-size: 8.11504px;
+        line-height: 10px;
+    }
+    body .wrapper section .popular .partners .partners_item_link p{
+        font-size: 8.11504px;
+        line-height: 10px;
+    }
+    body .wrapper section .popular{
+        padding-bottom: 0;
+    }
+    .partners .owl-carousel .owl-stage-outer {
+        height: 117px;
+    }
+    body .wrapper section .promotion h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    body .wrapper section .promotion .promotion_item {
+        width: 100%;
+    }
+    body .wrapper section .promotion .promotion_item .promotion_item_img img{
+        width: 100%;
+    }
+    body .wrapper section .partner .mobile_screen .mobile{
+        display: none;
+    }
+    body .wrapper section .promotion{
+        padding-bottom: 40px;
+    }
+    body .wrapper section .partner h1{
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 20px;
+    }
+    body .wrapper section .partner p{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 40px;
+    }
+    body .wrapper section .partner{
+        padding-bottom: 40px;
+    }
+    footer{
+        display: none;
+    }
+}
+
+
+
+
+
+

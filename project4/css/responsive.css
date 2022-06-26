@@ -1,0 +1,462 @@
+@media (min-width: 1200px){
+    .container{
+        width: auto;
+        min-width: 1140px;;
+    }
+
+    
+    /* __________ start viewResult.html ________ */
+
+
+
+    .test_body_scroll {
+        height: 363px;
+    }
+    .view_result .test_body{
+        width: 800px;
+        margin-bottom: 30px;
+    }
+    
+    
+}
+@media (max-width: 1200px){
+    .container{
+        width: auto;
+        max-width: 1140px;
+    }
+    /* __________ end index.html ________ */
+
+
+    /* __________ start student.html ________ */
+
+    .other_wrapper .container{
+        width: auto;
+        max-width: 960px;
+    }
+    .test_tab .test_tab_nav{
+        justify-content: center;
+    }
+    .test_content .test_main{
+        justify-content: center;
+    }
+    .test_content .test_main .test_main_title{
+        width: 600px;
+    }
+    .main h1{
+        margin-bottom: 13px;
+    }
+    /* __________ end takeTest.html ________ */
+
+
+    /* __________ start viewResult.html ________ */
+
+
+
+    .test_body_scroll {
+        height: 267px;
+    }
+    .view_result .test_body{
+        width: 800px;
+        margin-bottom: 30px;
+    }
+
+    .teacher_tab .test_tab_body {
+        height: 364px;
+    }
+    .new_question{
+        width: 400px;
+    }
+}
+
+@media (max-width: 992px){
+    .container{
+        width: auto;
+        max-width: 960px;
+    }
+    .other_wrapper .container{
+        padding: 0 10px;
+    }
+    .wrapper .hsseader{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .wrapper .header .logo{
+        justify-content: center;
+    }
+
+    /* __________ end index.html ________ */
+
+
+    /* __________ start student.html ________ */
+
+    .other_wrapper .container{
+        width: auto;
+        max-width: 960px;
+    }
+    .test_tab .test_tab_nav{
+        justify-content: center;
+    }
+    .test_content .test_main{
+        justify-content: center;
+    }
+    .test_content .test_main .test_main_title{
+        width: 600px;
+    }
+    .main h1{
+        margin-bottom: 13px;
+    }
+
+    /* __________ end takeTest.html ________ */
+
+
+    /* __________ start viewResult.html ________ */
+
+
+
+    .test_body_scroll {
+        height: 267px;
+    }
+    .view_result .test_body{
+        width: 800px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    /* __________ end viewResult.html ________ */
+
+
+    /* __________ start teacher.html ________ */
+
+
+
+    .other_wrapper .container .class_selection {
+        justify-content: center;
+    }
+
+    .teacher_tab .test_tab_body {
+        height: 374px;
+    }
+
+    .questions_item{
+        width: 334px;
+    }
+    .error_message{
+        top: 37%;
+        left: 35%;
+    }
+}
+
+
+@media (max-width: 768px){
+    .container{
+        width: auto;
+        max-width: 720px;
+    }
+    .index_wrapper {
+        background-position: right;
+    }
+    .wrapper .header{
+        padding: 25px 10px;
+        justify-content: center;
+    }
+    /* __________ end index.html ________ */
+
+
+    /* __________ start student.html ________ */
+
+    .other_wrapper .container{
+        width: auto;
+        max-width: 720px;
+    }
+    .test_tab .test_tab_nav{
+        justify-content: center;
+    }
+    .test_content .test_main .test_main_title{
+        width: 385px;
+    }
+    .main .test_body{
+        width: 583px;
+    }
+    .main h1{
+        margin-bottom: 13px;
+    }
+
+    /* __________ end takeTest.html ________ */
+
+
+    /* __________ start viewResult.html ________ */
+
+
+
+    .test_body_scroll {
+        height: 267px;
+    }
+    .view_result .test_body{
+        width: 580px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+
+    /* __________ end viewResult.html ________ */
+
+
+    /* __________ start teacher.html ________ */
+
+    .other_wrapper .container .class_selection {
+        justify-content: center;
+    }
+
+    .teacher_tab .test_tab_body {
+        height: 350px;
+    }
+    .questions_item{
+        width: 310px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .save_questions_left{
+        display: none;
+    }
+    .mobile_corusel{
+        display: block;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .new_question {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .save_questions_left{
+        height: auto;
+    }
+    .save_questions{
+        margin-bottom: 0;
+    }
+    .save_questions_left{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .btn_save_mobile{
+        display: block;
+    }
+    
+    .btn_save{
+        display: none;
+    }
+    .owl-nav, .owl-dots{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width: 480px){
+    .container{
+        width: auto;
+        max-width: 375px;
+    }
+    .index_wrapper{
+        background-image: url(../images/Backgrd_mobile.png);
+    }
+    .wrapper .header{
+        padding: 27px 10px 20px 27px;
+        margin-bottom: 51px;
+    }
+    .wrapper .logo img{
+        margin-right: 13px;
+    }
+    .wrapper .container .session_tabs{
+        width: 360px;
+    }
+    .wrapper .container .session_tabs .nav_tabs .reg{
+       padding: 16px 18px;
+    }
+    .wrapper .container .session_tabs .nav_tabs .login{
+        padding: 16px 49px;
+    }
+    .wrapper .container .session_tabs .tab_body form .class_selection select {
+        padding: 13px 8px 13px 9px;
+        margin-right: 9px;
+    }
+
+    /* __________ end index.html ________ */
+
+
+    /* __________ start student.html ________ */
+
+    .other_wrapper{
+        background: #E5E5E5;
+    }
+    .other_wrapper .container{
+        width: auto;
+        max-width: 375px;
+    }
+    .wrapper .header{
+        margin-bottom: 20px;
+    }
+    .other_wrapper .logo{
+        display: none;
+    }
+    .other_wrapper .header .container{
+        justify-content: end;
+    }
+    .test_tab .test_tab_nav li{
+        margin-right: 0;
+    }
+    .test_tab .test_tab_nav{
+        justify-content: space-between;
+    }
+    .test_main_button{
+        display: none;
+    }
+    .test_content{
+        overflow-y: scroll;
+    }
+    .test_content .test_main .test_main_title{
+        width: 100%;
+        margin: 0;
+    }
+    .test_main_button_mb{
+        display: block;
+        color: #0062CC;
+        margin-top: 15px;
+    }
+    .test_tab_body {
+        /* overflow-y: scroll; */
+        height: 350px;
+    }
+    .footer{
+        padding: 12px 0;
+    }
+    .footer .footer_main .logo_footer img{
+        display: none;
+    }
+    .footer .footer_main .logo_footer p{
+        width: 200px;
+    }
+    
+
+    /* __________ end student.html ________ */
+
+
+    /* __________ start takeTest.html ________ */
+
+    .main {
+        margin-top: 20px;
+    }
+    .main h1{
+        width: 294px;
+        margin: 20px auto;
+    }
+    .main .test_body{
+        width: 320px;
+        padding: 25px 12px;
+    }
+    .main .test_body .test_body_title{
+        margin-bottom: 10px;
+    }
+    .main .test_body .test_body_subtitle{
+        margin-bottom: 10px;
+    }
+    .main .test_body .confirm button{
+        margin-top: 16px;
+        padding: 15px 71px;
+    }
+
+    
+/* __________ end takeTest.html ________ */
+
+
+/* __________ start viewResult.html ________ */
+
+
+    .view_result .end_review {
+        text-align: center;
+    }
+    .view_result .end_review a{
+        padding: 13px 82px;
+    }
+    .user, .mark{
+        padding-left: 30px;
+    }
+    .test_body_scroll {
+        height: 241px;
+    }
+    .main .test_body{
+        margin: 30px auto;
+        margin-top: 0;
+    }
+
+
+    
+    /* __________ end viewResult.html ________ */
+
+
+    /* __________ start teacher.html ________ */
+
+
+    .test_tab.teacher_tab .test_tab_nav li:last-child {
+        margin-top: 20px;
+    }
+    .test_tab.teacher_tab .test_tab_nav li button{
+        padding: 10px 20px;
+    }
+    .other_wrapper .container .teacher_tab .class_selection{
+        margin-bottom: 27px;
+    }
+    .test_tab.teacher_tab .test_tab_body{
+        height: 300px;
+    }
+    .other_wrapper .teacher_tab .class_selection .select_test label{
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .test_name input{
+        width: 91%;
+        margin-top: 9px;
+        margin-left: 0;
+    }
+    .max_questions{
+        margin-bottom: 25px;
+    }
+    .new_question{
+        width: 93%;
+        padding: 15px 12px;
+    }
+    .edit_question textarea{
+        width: 93%;
+    }
+    .answer_option button{
+        width: 100%;
+    }
+    .answer_option_item input{
+        width: 95%;
+    }
+    .answer_option_item a{
+        right: 5px;
+    }
+    .add_btn {
+        width: 100%;
+    }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded{
+        width: 120%;
+        margin-right: 20px;
+    }
+    .questions_item{
+       width: 325px;
+    } 
+
+    .error_message {
+        top: 50%;
+        left: 6%;
+        z-index: 100;
+        width: 330px;
+    }
+
+
+
+}

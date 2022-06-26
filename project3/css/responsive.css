@@ -1,0 +1,480 @@
+@media (max-width: 1200px) {
+    .container {
+        width: auto;
+        max-width: 1140px;
+    }
+    .address {
+        flex-basis: 32%;
+        padding-bottom: 8px;
+    }
+    .phone_number {
+        padding-left: 105px;
+    }
+    .phone_number::before {
+        left: 63px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: auto;
+        max-width: 960px;
+    }
+    .header_top .container p {
+        font-size: 11px;
+    }
+    .header_contact a {
+        font-size: 13px;
+    }
+    nav .nav-link {
+        font-size: 15px;
+        margin-right: 0;
+    }
+    .urgent h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .urgent p {
+        margin: 0 auto 20px auto;
+    }
+    .urgent_link {
+        text-align: center;
+    }
+    .urgent a {
+        width: 25%;
+    }
+    .our_services_item h3 {
+        font-size: 18px;
+    }
+    .our_services_item p {
+        font-size: 13px;
+    }
+    .why_us h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .why_us_item {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .service_cost_item ul li:nth-child(odd) span {
+        font-size: 14px;
+    }
+    .service_cost h1 {
+        font-size: 35px;
+    }
+    .left_bg {
+        display: none;
+    }
+    .right_bg {
+        flex-basis: 100%;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .our_services .col-md-8 {
+        margin-bottom: 25px;
+    }
+    .service_cost .col-md-10 {
+        margin-bottom: 25px;
+    }
+    .address {
+        font-size: 11px;
+    }
+    .phone_number a {
+        font-size: 15px;
+    }
+    .email {
+        font-size: 15px;
+    }
+    .phone_number p {
+        font-size: 11px;
+    }
+    .form {
+        width: 960px;
+    }
+    h1.title_bottom {
+        font-size: 25px;
+    }
+    .our_contact input {
+        margin-bottom: 15px;
+    }
+    .our_work img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: auto;
+        max-width: 720px;
+    }
+    .urgent p {
+        width: 80%;
+    }
+    .address {
+        font-size: 10px;
+    }
+    .phone_number {
+        padding: 0;
+        padding-top: 18px;
+        padding-left: 80px;
+    }
+    .phone_number::before {
+        left: 39px;
+    }
+    .email {
+        padding-left: 78px;
+        font-size: 11px;
+        padding-top: 36px;
+    }
+    .email::before {
+        left: 37px;
+    }
+    footer nav .nav-link {
+        margin: 0;
+    }
+    footer .navbar-nav {
+        justify-content: space-between;
+        width: 685px;
+    }
+    .form {
+        width: 720px;
+    }
+    h1.title_bottom {
+        font-size: 25px;
+    }
+    .our_work img {
+        height: 180px;
+    }
+    .row.second {
+        flex-direction: column-reverse;
+    }
+    .about_us img {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        width: auto;
+        max-width: 380px;
+    }
+    .header_top {
+        display: none;
+    }
+    .header_mobile {
+        display: block;
+    }
+    .header_mobile .container .header_contact {
+        padding: 15px 0;
+        padding-left: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .header_contact .number {
+        margin-bottom: 0;
+    }
+    /* .header_mobile .header_contact {
+        flex: 0 0 50%;
+    }
+    .header_mobile .oclock {
+        flex: 0 0 50%;
+    }
+    .header_mobile .oclock p {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    } */
+    .urgent {
+        background-image: url(../images/mobile_bg.png);
+    }
+    .header_bottom {
+        background-color: #fff;
+        padding: 0;
+    }
+    .header_bottom .navbar {
+        background-color: #fff;
+        padding: 10px 15px;
+    }
+    .header_bottom .container-fluid,
+    .header_bottom .container {
+        padding: 0;
+    }
+    .header_bottom nav .nav-link {
+        color: #333;
+    }
+    .collapse:not(.show) {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-nav {
+        flex-direction: column;
+    }
+    .header_bottom .container-fluid a.navbar-brand {
+        display: block;
+        margin-right: 0;
+    }
+    a.navbar-brand img {
+        width: 110px;
+    }
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .nav-item {
+        margin-bottom: 25px;
+    }
+    .navbar-collapse {
+        margin-top: 15px;
+    }
+    .urgent h1 {
+        font-size: 22px;
+    }
+    .urgent p {
+        font-size: 13px;
+        width: 100%;
+        text-align: center;
+    }
+    .urgent a:first-child {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .urgent a {
+        width: 65%;
+    }
+    .why_us_item {
+        height: auto;
+    }
+    .service_cost_item_title img {
+        position: absolute;
+        top: 95px;
+        width: 159px;
+    }
+    .service_cost_item ul li:nth-child(odd) span {
+        font-size: 13px;
+    }
+    .your_car,
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .form input {
+        width: 95%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .left_bg {
+        display: block;
+        flex-basis: 100%;
+        height: 785px;
+    }
+    .right_bg {
+        display: none;
+    }
+    .form {
+        width: 370px;
+        text-align: center;
+    }
+    .main_description_items p {
+        font-size: 14px;
+    }
+    .sale a {
+        padding: 13px 53px;
+        font-size: 19px;
+    }
+    .footer_top {
+        width: 314px;
+        flex-direction: column;
+        top: -196px;
+    }
+    .address {
+        padding-bottom: 36px;
+    }
+    .phone_number {
+        padding-bottom: 25px;
+    }
+    .email {
+        padding-bottom: 38px;
+    }
+    .email::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: -44px;
+        border-left: 22px solid #5599E8;
+        border-right: 22px solid transparent;
+        border-top: 47px solid transparent;
+        border-bottom: 47px solid transparent;
+        z-index: 999;
+    }
+    h1.title_bottom {
+        font-size: 25px;
+    }
+    .our_contact {
+        text-align: center;
+    }
+    .our_contact input {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .our_work img {
+        height: 180px;
+        margin-bottom: 25px;
+    }
+    .our_services_item .title_img {
+        height: 170px;
+        margin-bottom: 10px;
+    }
+    .our_services_item .title_img img {
+        width: 170px;
+    }
+    .our_services_item {
+        padding: 15px;
+    }
+    .our_services_item h3 {
+        margin-bottom: 10px;
+    }
+    .our_services_item p {
+        margin-bottom: 10px;
+    }
+    .service_cost_item_title h2 {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+    .service_cost_item {
+        padding: 15px 25px;
+    }
+    .service_cost_item_title img {
+        top: 40px;
+        right: -25px;
+    }
+    .service_cost_item_title {
+        margin-bottom: 25px;
+    }
+    .service_cost_item ul li:nth-child(odd) {
+        margin-bottom: 10px;
+    }
+    .service_cost_item ul li:nth-child(2n) {
+        margin-bottom: 10px;
+    }
+    .navbar-toggler-icon {
+        width: 1.5em;
+    }
+    .header_bottom .header_contact {
+        display: block;
+        flex-basis: auto;
+    }
+    .header_bottom li .header_contact {
+        display: block;
+    }
+    .our_work {
+        padding: 15px;
+    }
+    .our_services h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .our_services {
+        padding: 20px;
+    }
+    .why_us h1 {
+        font-size: 24px;
+    }
+    .service_cost {
+        padding: 20px 0;
+    }
+    .form {
+        top: 20px;
+    }
+    h1.title_bottom {
+        margin-bottom: 25px;
+    }
+    .left_bg {
+        height: 660px;
+    }
+    .main_description {
+        padding: 20px 0;
+    }
+    .main_description h1 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .main_description .main_description_items {
+        margin-bottom: 20px;
+    }
+    .about_us {
+        padding: 20px;
+    }
+    .urgent.motor {
+        background-image: url(../images/motorchik_bg_mobile.png);
+        padding: 100px 0;
+    }
+    .urgent.starter {
+        background-image: url(../images/starter_bg_mobile.png);
+        padding: 100px 0;
+    }
+    .urgent.starter h1 {
+        font-size: 25px;
+        width: 100%;
+        text-align: center;
+    }
+    .urgent.starter p {
+        margin-bottom: 20px;
+    }
+    .urgent.generator {
+        background-image: url(../images/generator_bg_mobile.png);
+        padding: 100px 0;
+    }
+    .motor_description {
+        padding: 25px 0;
+        padding-bottom: 210px;
+    }
+    .motor_description h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .whatsapp::before {
+        content: '';
+        width: 0;
+    }
+    .number::before {
+        content: '';
+        width: 0;
+    }
+    section {
+        margin-top: 60px;
+    }
+    .header_bottom .header_contact a {
+        font-size: 16px;
+    }
+    li .description {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .our_services.garantiya img {
+        width: 100px;
+    }
+    .our_services.garantiya .col-md-8 {
+        margin-bottom: 0;
+    }
+    .contact_form textarea {
+        text-align: center;
+    }
+}

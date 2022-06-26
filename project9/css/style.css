@@ -1,0 +1,58 @@
+*, p, h1, h2, h3, ul, li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gilroy';
+}
+.wrapper{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.new .new__bg{
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    
+}
+.nav{
+    display: none;
+}
+.nav.active{
+    display: flex;
+}
+
+.smart__home{
+    background-image: url(../images/smart.png);
+    background-repeat: no-repeat;
+}
+.our_left{
+    background-image: url(../images/sparklite.png);
+    background-repeat: no-repeat;
+}
+.our_right{
+    background-image: url(../images/car.png);
+    background-repeat: no-repeat;
+}
+
+.footer__lorem__mobile{
+    display: none;
+}
+
+.what_mobile{
+    display: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: swing; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+
+
+

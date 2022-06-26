@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+header {
+    margin-bottom: 50px;
+}
+.header__top{
+    background: blue;
+ 
+}
+.header__top .container .navbar-brand{
+    font-family: 'Ettielier';
+    font-weight: bolder;
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+.mynav .container__nav a {
+  display: block;
+  position: relative;
+  padding: 0.2em 0;
+}
+.mynav .container__nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.1em;
+  background-color: white;
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}
+.mynav .container__nav a:hover::after,
+.mynav .container__nav a:focus::after {
+  opacity: 1;
+  transform: translate3d(0, 0.2em, 0);
+}
+.mynav .container__nav a::after {
+  opacity 1;
+  transform: scale(0);
+  transform-origin: center;
+}
+.mynav .container__nav a:hover::after,
+a:focus::after{
+  transform: scale(1);
+}
+.mydropdown{
+    margin-left: 25px;
+    background-color: red;
+}
+.mydrop li {
+   padding: 10px;
+   
+}
+.d-flex .mybutton{
+    color: #fff;
+}
+.header__bottom{
+background: linear-gradient(180deg, rgba(174,240,238,1) 0%, rgba(121,234,235,1) 35%, rgba(0,212,255,1) 100%);
+}
+.header__bottom:hover{
+  background: blue;
+}
+.header__bottom .container .nav  a{
+    color: red;
+    font-weight: bolder;
+} 
+.container .nav .nav-item  {
+    padding: 15px;
+}
+.corusel {
+    margin-bottom: 40px;
+}
+.corusel img{
+    height: 450px;
+}
+.reklama a img{
+    width: 356px;
+    margin-top: 50px;
+}
+.table td,  .table th {
+    width: 20px;
+}
+main {
+    margin-bottom: 50px;
+}
+.py-5 .container .nav-item {
+    padding: 0;
+}
+.card__1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.youtube{
+    margin-bottom: 30px;
+}
