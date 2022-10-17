@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Bonheur Royale';
+    src: url('BonheurRoyale-Regular.eot');
+    src: local('Bonheur Royale Regular'), local('BonheurRoyale-Regular'),
+        url('BonheurRoyale-Regular.eot?#iefix') format('embedded-opentype'),
+        url('BonheurRoyale-Regular.woff2') format('woff2'),
+        url('BonheurRoyale-Regular.woff') format('woff'),
+        url('BonheurRoyale-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

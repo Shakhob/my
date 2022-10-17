@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../libs/owl_carusel/owl.carousel.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="other_wrapper index_wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="logo">
+                        <img src="../images/logo.png" alt="logo">
+                        <p>Сервис онлайн-тестирования в сфере образования</p>
+                    </div>
+                    <div class="user">
+                        <span>Иванов Иван Иванович</span>
+                        <img src="../images/user.png" alt="">
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="nav">
+                    <a href="teacher.html">Для учителей</a>
+                    <a href="student.html">Для студентов</a>
+                    <a href="viewResult.html">Результаты</a>
+                    <a href="takeTest.html">Тесты</a>
+                </div>
+                <div class="test_tab teacher_tab">
+                    <ul class="test_tab_nav">
+                        <li><button class="" data-content="students_result">Результаты учащихся</button></li>
+                        <li><button class="active" data-content="create_test">Создать тест</button></li>
+                        <li><button data-content="my_test">Мои тесты</button></li>
+                    </ul>
+
+                    <div class="test_tab_body ">
+                        <div class="test_content " id="students_result">
+                            <div class="class_selection">
+                                <label for="class_student">Выберите класс:</label>
+                                <select name="class_student_number" id="class_student_number">
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                    </select>
+                                <select name="class_student_letters" id="class_student_letters">
+                                        <option value="a">A</option>
+                                        <option value="b">Б</option>
+                                        <option value="v">В</option>
+                                        <option value="g">Г</option>
+                                        <option value="d">Д</option>
+                                    </select>
+                                <div class="select_test">
+                                    <label for="select_test_id">Выберите тест:</label>
+                                    <select name="select_test_id" id="select_test_id">
+                                        <option value="1">Математические основы информатики</option>
+                                        <option value="2">Основы алгоритмизации</option>
+                                        <option value="3">Общие сведения о системах счисления</option>
+                                        <option value="4">Начала программирования</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="result_test_title">
+                                Результаты тестирования:
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title user_answer_title">
+                                    <div class="user_answer">
+                                        <p>Шурупов Владислав Михайлович</p>
+                                        <p>Отметка: 5</p>
+                                    </div>
+                                    <a class="test_main_button_mb" href="viewResult .html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="viewResult.html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title user_answer_title">
+                                    <div class="user_answer">
+                                        <p>Смирнов Николай Сергеевич</p>
+                                        <p>Отметка: 3</p>
+                                    </div>
+                                    <a class="test_main_button_mb" href="viewResult.html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="viewResult.html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title user_answer_title">
+                                    <div class="user_answer">
+                                        <p>Куликов Семен Дмитриевич</p>
+                                        <p>Отметка: 4</p>
+                                    </div>
+                                    <a class="test_main_button_mb" href="viewResult.html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="viewResult.html">ПОСМОТРЕТЬ РЕЗУЛЬТАТ</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="test_content active" id="create_test">
+                            <form action="">
+                                <div class="test_name">
+                                    <label for="test_title">Название теста:</label>
+                                    <input type="text" name="test_title" id="test_title" placeholder="Введите название теста">
+                                </div>
+                                <div class="max_questions">
+                                    <label for="max_questions_title">Максимально вопросов в тесте:</label>
+                                    <input type="number" name="max_questions_title" id="max_questions_title">
+                                </div>
+                                <div class="max_questions">
+                                    <label for="max_questions_class">Классы: </label>
+                                    <input type="number" name="max_questions_class" id="max_questions_class">
+                                </div>
+                                <div class="save_questions">
+                                    <div class="save_questions_left" id="save_questions_left">
+                                        <div class="questions_item">
+                                            <div class="questions_item_top">
+                                                <div class="questions_number">Вопрос #1</div>
+                                                <div class="trashcan">
+                                                    <a href="#" class="remove_button"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                </div>
+                                            </div>
+                                            <div class="questions_item_title">
+                                                Простейшая и самая древняя сисиема ...
+                                            </div>
+                                        </div>
+                                        <div class="questions_item active">
+                                            <div class="questions_item_top">
+                                                <div class="questions_number">Вопрос #2</div>
+                                                <div class="trashcan">
+                                                    <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                </div>
+                                            </div>
+                                            <div class="questions_item_title">
+                                                Простейшая и самая древняя сисиема ...
+                                            </div>
+                                        </div>
+                                        <div class="questions_item">
+                                            <div class="questions_item_top">
+                                                <div class="questions_number">Вопрос #1</div>
+                                                <div class="trashcan">
+                                                    <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                </div>
+                                            </div>
+                                            <div class="questions_item_title">
+                                                Простейшая и самая древняя сисиема ...
+                                            </div>
+                                        </div>
+                                        <div class="questions_item">
+                                            <div class="questions_item_top">
+                                                <div class="questions_number">Вопрос #1</div>
+                                                <div class="trashcan">
+                                                    <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                </div>
+                                            </div>
+                                            <div class="questions_item_title">
+                                                Простейшая и самая древняя сисиема ...
+                                            </div>
+                                        </div>
+                                        <div class="questions_item">
+                                            <div class="questions_item_top">
+                                                <div class="questions_number">Вопрос #1</div>
+                                                <div class="trashcan">
+                                                    <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                </div>
+                                            </div>
+                                            <div class="questions_item_title">
+                                                Простейшая и самая древняя сисиема ...
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="new_question">
+                                        <div class="edit_question">
+                                            <label for="add_question">Вопрос:</label>
+                                            <textarea class="add_question" id="add_question" placeholder="Введите вопрос" cols="30" rows="1"></textarea>
+                                        </div>
+                                        <div class="question_difficulty_level">
+                                            <label for="question_difficulty_level_label">Уровень сложности вопроса:</label>
+                                            <select name="question_difficulty_level_label" id="question_difficulty_level_label">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5 </option>
+                                            </select>
+                                        </div>
+                                        <div class="answer_option">
+                                            <button class="add_button">ДОБАВИТЬ ВАРИАНТ ОТВЕТА</button>
+                                            <div class="answer_option_item">
+                                                <input type="text" name="field_name[]" value="" placeholder="Введите вариант ответа">
+                                                <input type="checkbox">
+                                                <a href="javascript:void(0);" class="remove_button">
+                                                    <img src="../images/trashcan.png" />
+                                                </a>
+                                            </div>
+                                            <div class="answer_option_item">
+                                                <input type="text" name="field_name[]" value="" placeholder="Введите вариант ответа">
+                                                <input type="checkbox">
+                                                <a href="javascript:void(0);" class="remove_button">
+                                                    <img src="../images/trashcan.png" />
+                                                </a>
+                                            </div>
+                                            <div class="answer_option_item">
+                                                <input type="text" name="field_name[]" value="" placeholder="Введите вариант ответа">
+                                                <input type="checkbox">
+                                                <a href="javascript:void(0);" class="remove_button">
+                                                    <img src="../images/trashcan.png" />
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <button class="add_btn">СОХРАНИТЬ ВОПРОС</button>
+                                    </div>
+                                    <div class="mobile_corusel">
+                                        <div class=" save_questions_left_mobile owl-carousel" id="save_questions_left">
+                                            <div class="questions_item">
+                                                <div class="questions_item_top">
+                                                    <div class="questions_number">Вопрос #1</div>
+                                                    <div class="trashcan">
+                                                        <a href="#" class="remove_button"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="questions_item_title">
+                                                    Простейшая и самая древняя сисиема ...
+                                                </div>
+                                            </div>
+                                            <div class="questions_item active">
+                                                <div class="questions_item_top">
+                                                    <div class="questions_number">Вопрос #2</div>
+                                                    <div class="trashcan">
+                                                        <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="questions_item_title">
+                                                    Простейшая и самая древняя сисиема ...
+                                                </div>
+                                            </div>
+                                            <div class="questions_item">
+                                                <div class="questions_item_top">
+                                                    <div class="questions_number">Вопрос #1</div>
+                                                    <div class="trashcan">
+                                                        <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="questions_item_title">
+                                                    Простейшая и самая древняя сисиема ...
+                                                </div>
+                                            </div>
+                                            <div class="questions_item">
+                                                <div class="questions_item_top">
+                                                    <div class="questions_number">Вопрос #1</div>
+                                                    <div class="trashcan">
+                                                        <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="questions_item_title">
+                                                    Простейшая и самая древняя сисиема ...
+                                                </div>
+                                            </div>
+                                            <div class="questions_item">
+                                                <div class="questions_item_top">
+                                                    <div class="questions_number">Вопрос #1</div>
+                                                    <div class="trashcan">
+                                                        <a href="#"><img src="../images/trashcan.png" alt="trashcan"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="questions_item_title">
+                                                    Простейшая и самая древняя сисиема ...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="save_btn btn_save">СОХРАНИТЬ ТЕСТ</button>
+                                <button class="save_btn btn_save_mobile">СОХРАНИТЬ ТЕСТ</button>
+                            </form>
+                        </div>
+
+                        <div class="test_content" id="my_test">
+                            <div class="class_selection">
+                                <label for="class_student">Выберите класс:</label>
+                                <select name="class_student_number" id="class_student_number">
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                </select>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title">
+                                    Математические основы информатики
+                                    <a class="test_main_button_mb" href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title">
+                                    Основы алгоритмизации
+                                    <a class="test_main_button_mb" href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title">
+                                    Общие сведения о системах счисления
+                                    <a class="test_main_button_mb" href="#l">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title">
+                                    Начала программирования
+                                    <a class="test_main_button_mb" href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                            </div>
+                            <div class="test_main">
+                                <div class="test_main_title">
+                                    Начала программирования
+                                    <a class="test_main_button_mb" href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                                <div class="test_main_button">
+                                    <a href="#">РЕДАКТИРОВАТЬ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_main">
+                        <div class="logo_footer">
+                            <img src="../images/logo.png" alt="logo">
+                            <p>Сервис онлайн-тестирования в сфере образования</p>
+                        </div>
+                        <div class="privacy">
+                            Политика конфиденциальности
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="error_message ">
+            <p>Добавьте не менее 10 вопросов.</p>
+            <a href="#">OK</a>
+        </div>
+    </div>
+
+
+    <script src="../libs/jquery/jquery-3.6.0.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../libs/owl_carusel/owl.carousel.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+@media (max-width: 992px) {
+.container {
+    width: auto;
+    max-width: 960px;
+    }
+    body {
+        padding: 15px;
+    }
+   
+    .header__black, .header__yellow, .grey{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .header__3 {
+        width: 100%;
+    }
+    .content, .banner  {
+        width:  600px;
+    }
+    .header__yellow {
+        justify-content: space-evenly;
+    }
+    .info {
+    text-align: center;
+}
+    .grey, .banner{
+        justify-content: center;
+    }
+    
+     .banner__3 a img, .banner__4  img{
+        width:  600px;
+    }
+    .aksiya{
+        width: 665px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.container {
+    width: auto;
+    max-width: 720px;
+    }
+    body {
+        padding: 15px;
+    }
+   
+    .header__black, .header__yellow, .grey{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .navigat .nav{
+        justify-content: center;
+    }
+    .header__3 {
+        width: 100%;
+    }
+    .content, .banner  {
+        width:  400px;
+    }
+    .header__yellow {
+        justify-content: space-evenly;
+    }
+    .info {
+    text-align: center;
+}
+    .grey, .banner{
+        justify-content: center;
+    }
+    
+     .banner__3 a img, .banner__4  img{
+        width:  400px;
+    }
+    .aksiya{
+        width: 100%;
+        justify-content: flex-end;
+        
+    }
+    .tover__item{
+        width: 387px;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+.container {
+    width: auto;
+    max-width: 100%;
+    }
+    body {
+        padding: 15px;
+    }
+    section{
+        width: 480px;
+    }
+    .header__yellow{
+        width: 100%;
+    }
+    .header__1, .header__2, .header__3{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .navigat .nav{
+        justify-content: center;
+    }
+    .header__3 {
+        width: 100%;
+    }
+    .content, .banner  {
+        width:  400px;
+        
+    }
+    .main__body .container{
+        justify-content: center;
+        width: 100%;
+    }
+    .header__yellow {
+        justify-content: space-evenly;
+    }
+    .info {
+    text-align: center;
+}
+    .grey, .banner{
+        justify-content: center;
+    }
+    
+     .banner__3 a img, .banner__4  img{
+        width:  400px;
+    }
+    .banner {
+        flex-direction: column;
+    }
+    .aksiya{
+        width: 100%;
+        justify-content: flex-end;
+        
+    }
+    .tover__item{
+        width: 387px;
+    }
+    .podval__block{
+        justify-content: center;
+    }
+    .podval__block {
+        text-align: center;
+        
+    }
+}
